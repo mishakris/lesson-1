@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+ }
+ h1{
+color: rgb(255, 255, 255);
+ }
+.container{
+    width: 100%;
+    max width: 1140px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+li{
+    list-style-type: none;
+    padding: 15px;
+}
+ul{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    border: 2px solid white;
+    padding: 10px 30px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("/style/03be1e9c-d896-4277-a0d5-baf407e8b9ab.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.start{
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.link{
+    padding: 15px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.welcome{
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.agency{
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.center{
+    width: 100%;
+    padding: 250px;
+    margin: 0 auto;
+}
+a{
+    font-size: 20px;
+    color: white;
+}
+.main-inner{
+    width: 100%;
+    padding: 100px 0;
+}
+h2{
+    
+    display: flex;
+    justify-content: center;
+}
+.main-intro{
+    padding: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-views{
+    width: 100%;
+    max-width: 200px;
+    padding: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.first>i{
+font-size: 45px;
+background: transparent;
+}
+.first{
+    width: 90px;
+    height: 90px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.first:hover{
+    background:rgb(216, 12, 12);
+}
+i{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+.second>i{
+    font-size: 45px;
+    background: transparent;
+    }
+    .second{
+    width: 90px;
+    height: 90px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.second:hover{
+    background:rgb(216, 12, 12);
+}
+.third>i{
+    font-size: 45px;
+    background: transparent;
+    }
+    .third{
+    width: 90px;
+    height: 90px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.third:hover{
+    background:rgb(216, 12, 12);
+}
+.main-h{
+    width: 100%;
+    max-width: 1050px;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    width: 100%;
+    max-width: 1140px;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.paragraph{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.paragraph1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.paragraph2{
+    width: 40%;
+display: flex;
+justify-content: center;
+}
+.paragraph3{
+    width: 40%;
+    display: flex;
+justify-content: center;
+}  
+footer{
+    width: 100%;
+    height: 15vh;
+    background: red;
+
+}
+.twitter{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.twitter1:hover{
+    background:rgb(255, 255, 255);
+}
+.twitter1{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.twitter2:hover{
+    background:rgb(255, 255, 255);
+}
+.twitter2{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.twitter3:hover{
+    background:rgb(255, 255, 255);
+}
+.twitter3{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.zzz{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
